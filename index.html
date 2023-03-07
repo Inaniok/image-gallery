@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Gallery</title>
+</head>
+<body>
+    <div onMouseOver="btn_show()" onMouseOut=" btn_noshow()" class="wrapper">   
+        <div id="left" onClick="image(0)" class="left_right">
+            <img src="img/left.png" alt="">
+        </div>
+        <div id="right" onClick="image(1)" class="left_right">
+            <img src="img/right.png" alt="">
+        </div>
+    </div>
+    <center><p style="font-size: 18px; color: #333; font-weight: bold;" id="num_img">
+    </p> 
+ </center>
+ <center><span class="myButton" onclick="image(0)">&lt;</span>
+    <span class="myButton" onclick="image(1)">&gt;</span>
+</center>
+    <script src = "./index.js" type="module"></script> 
+</body>
+</html>
