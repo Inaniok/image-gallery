@@ -1,4 +1,4 @@
-var imageArray = [
+const imageArray = [
     "./img/1.jpg", 
     "./img/2.jpg", 
     "./img/3.jpg", 
@@ -7,7 +7,7 @@ var imageArray = [
 ];
 
 window.number = '0';
-var imageCount = imageArray.length;
+let imageCount = imageArray.length;
 function image(num) {
     if (num == 1) {
         if (number < imageCount - 1) {
