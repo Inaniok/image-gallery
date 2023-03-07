@@ -25,7 +25,7 @@ function image(num) {
 }
 
 function btn_show() {
-    if (number!=0)
+    if (number!=0) 
     document.getElementById('left').style.display='block';
     if (number!=imageCount-1)
     document.getElementById('right').style.display='block';
