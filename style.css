@@ -1,0 +1,48 @@
+body {
+    background: url('img/back.png');
+}
+
+.myButton {
+    padding: 6px 25px;
+    background-color: #007dc1;
+    border-radius:3px;
+    border: 1px solid #124d77;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background-color: #0061a7
+    ;
+}
+.myButton.active {
+    position: relative;
+    top: 1px;
+}
+
+.wrapper {
+    width: 1280px;
+    height: 720px;
+    margin: 10px auto;
+}
+
+.left_right{
+    /* margin-left: 1200px; */
+    margin: -388px 0 0 10px;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+
+img#images {
+    border: double black 6px;
+}
+
+#left, #right {
+   width: 70px; 
+   height: 70px;
+   background: rgba(0, 0 , 0, 0.7);
+   border-radius: 50%;
+}
