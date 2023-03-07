@@ -29,7 +29,6 @@ body {
 }
 
 .left_right{
-    /* margin-left: 1200px; */
     margin: -388px 0 0 10px;
     position: absolute;
     display: none;
